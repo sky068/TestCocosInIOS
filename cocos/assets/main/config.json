@@ -1,0 +1,52 @@
+{
+    "paths": {},
+    "uuids": [
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "2dL3kvpAxJu6GJ7RdqJG5J",
+        "31vIlawANFZqnzLlSuHBfc",
+        "41D7kWhyFGY7q4NDlzkazn",
+        "62UTD/X5pPaICxiRD9X4wN",
+        "6aoKpq6+5BVaCIpoemqt7E",
+        "71VhFCTINJM6/Ky3oX9nBT",
+        "a8Anh32NZGRZegUtSgEj26",
+        "b4P/PCArtIdIH38t6mlw8Y",
+        "e8Ueib+qJEhL6mXAHdnwbi",
+        "e97GVMl6JHh5Ml5qEDdSGa",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "f0BIwQ8D5Ml7nTNQbh1YlS"
+    ],
+    "scenes": {
+        "db://assets/Scene/blank.fire": "62UTD/X5pPaICxiRD9X4wN",
+        "db://assets/Scene/helloworld.fire": "2dL3kvpAxJu6GJ7RdqJG5J"
+    },
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "03f133834": [
+            "29FYIk+N1GYaeWH/q1NxQO",
+            "2dL3kvpAxJu6GJ7RdqJG5J",
+            "31vIlawANFZqnzLlSuHBfc",
+            "41D7kWhyFGY7q4NDlzkazn",
+            "e97GVMl6JHh5Ml5qEDdSGa",
+            "f0BIwQ8D5Ml7nTNQbh1YlS"
+        ],
+        "0e489d570": [
+            "6aoKpq6+5BVaCIpoemqt7E",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "a8Anh32NZGRZegUtSgEj26",
+            "b4P/PCArtIdIH38t6mlw8Y",
+            "e8Ueib+qJEhL6mXAHdnwbi"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}
