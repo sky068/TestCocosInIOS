@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "b42fa7e0-09dc-4191-ba74-ec3609442ad4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "绿色森林高高的大树天空风景高清壁纸": {
+      "ver": "1.0.4",
+      "uuid": "cc74fd00-4c11-4df5-b59d-2fbabdbd9661",
+      "rawTextureUuid": "b42fa7e0-09dc-4191-ba74-ec3609442ad4",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
