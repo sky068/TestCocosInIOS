@@ -44,9 +44,6 @@
     "_children": [
       {
         "__id__": 3
-      },
-      {
-        "__id__": 4
       }
     ],
     "_components": [
@@ -126,54 +123,6 @@
         0,
         0,
         323.02747561159566,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    }
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "New Label",
-    "_parent": {
-      "__id__": 2
-    },
-    "_components": [
-      {
-        "__type__": "cc.Label",
-        "node": {
-          "__id__": 4
-        },
-        "_materials": [
-          {
-            "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
-          }
-        ],
-        "_useOriginalSize": false,
-        "_string": "这是空场景，点击返回app",
-        "_N$string": "这是空场景，点击返回app",
-        "_fontSize": 30,
-        "_lineHeight": 30,
-        "_N$horizontalAlign": 1,
-        "_N$verticalAlign": 1
-      }
-    ],
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 350.05,
-      "height": 37.8
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
         0,
         0,
         0,

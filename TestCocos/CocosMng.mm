@@ -84,15 +84,8 @@ static Application * _app = NULL;
         return;
     }
     
-    _app->end();
+    _app->end(); // mark: 这里修改了CCApplication-ios.mm，end不再直接退出游戏而是只停止主循环和音频播放
     [self.viewController dismissViewControllerAnimated:YES completion:NULL];
-    
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        se::ScriptEngine* se = se::ScriptEngine::getInstance();
-//        se->clearException();
-//        se->cleanup();
-////        se::ScriptEngine::destroyInstance();
-//    });
 }
 
 -(void)didEnterBackground {

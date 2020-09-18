@@ -1,11 +1,31 @@
 {
     "paths": {},
     "uuids": [
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "2dL3kvpAxJu6GJ7RdqJG5J",
+        "31vIlawANFZqnzLlSuHBfc",
+        "3crMiVfuFDna1X95WlxMU8",
+        "41D7kWhyFGY7q4NDlzkazn",
+        "4ecaxxt05GJ4rPRZAOfrHf",
+        "4fMTXjpExBibIyBx2Hrw2T",
+        "5bRbEqUMJNIZcLOFuoHEzH",
         "62UTD/X5pPaICxiRD9X4wN",
-        "ecpdLyjvZBwrvm+cedCcQy"
+        "6aoKpq6+5BVaCIpoemqt7E",
+        "71VhFCTINJM6/Ky3oX9nBT",
+        "a8Anh32NZGRZegUtSgEj26",
+        "b4L6fgCdxBkbp07DYJRCrU",
+        "b4P/PCArtIdIH38t6mlw8Y",
+        "ccdP0ATBFN9bWdL7q9vZZh",
+        "e8Ueib+qJEhL6mXAHdnwbi",
+        "e97GVMl6JHh5Ml5qEDdSGa",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "ed03C/y3tEmJqeqvOk8/LG",
+        "f0BIwQ8D5Ml7nTNQbh1YlS",
+        "fcjCO85dtOaJ9zdjrJncfm"
     ],
     "scenes": {
-        "db://assets/Scene/blank.fire": "62UTD/X5pPaICxiRD9X4wN"
+        "db://assets/Scene/blank.fire": "62UTD/X5pPaICxiRD9X4wN",
+        "db://assets/Scene/helloworld.fire": "2dL3kvpAxJu6GJ7RdqJG5J"
     },
     "redirect": [
         "ecpdLyjvZBwrvm+cedCcQy",

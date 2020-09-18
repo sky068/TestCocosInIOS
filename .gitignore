@@ -1,1 +1,11 @@
 cocos/frameworks/cocos2d-x
+cocos/simulator
+TestCocos.xcodeproj/project.xcworkspace/xcuserdata/xujiawei.xcuserdatad/UserInterfaceState.xcuserstate
+cocos/frameworks/runtime-src/proj.android-studio
+cocos/frameworks/runtime-src/proj.win32
+cocos/frameworks/runtime-src/proj.ios_mac/AppInside.xcodeproj/project.xcworkspace/xcuserdata/xujiawei.xcuserdatad/UserInterfaceState.xcuserstate
+cocos/frameworks/runtime-src/proj.ios_mac/.DS_Store
+cocos/frameworks/runtime-src/.DS_Store
+cocos/frameworks/.DS_Store
+cocos/.DS_Store
+.DS_Store

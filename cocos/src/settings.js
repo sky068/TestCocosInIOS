@@ -8,11 +8,11 @@ window._CCSettings = {
             true
         ]
     ],
-    hasResourcesBundle: false,
+    hasResourcesBundle: true,
     hasStartSceneBundle: false,
     remoteBundles: [],
     subpackages: [],
-    launchScene: "db://assets/Scene/blank.fire",
+    launchScene: "db://assets/Scene/helloworld.fire",
     orientation: "",
     server: "",
     debug: true,

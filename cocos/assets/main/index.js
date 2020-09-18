@@ -64,12 +64,15 @@ window.__require = function e(t, n, r) {
         return null !== _super && _super.apply(this, arguments) || this;
       }
       NewClass.prototype.start = function() {
-        this.node.on(cc.Node.EventType.TOUCH_END, function(event) {
-          cc.log("touch end.");
-          cc.loader.releaseAll();
+        cc.assetManager.releaseAll();
+        cc.game.pause();
+        cc.sys.isNative && setTimeout(function() {
+          cc.director.getScene().destroy();
+          cc.Object._deferredDestroy();
+          cc.audioEngine && cc.audioEngine.uncacheAll();
           cc.sys.garbageCollect();
-          if (cc.sys.isNative) var ret = jsb.reflection.callStaticMethod("CocosMng", "exitCocosForJS");
-        }, this);
+          var ret = jsb.reflection.callStaticMethod("CocosMng", "exitCocosForJS");
+        }, 50);
       };
       NewClass = __decorate([ ccclass ], NewClass);
       return NewClass;
@@ -117,7 +120,25 @@ window.__require = function e(t, n, r) {
         _this.text = "hello";
         return _this;
       }
-      Helloworld.prototype.start = function() {};
+      Helloworld.prototype.start = function() {
+        cc.game.setFrameRate(30);
+        cc.debug.setDisplayStats(true);
+        var _loop_1 = function(i) {
+          var node = new cc.Node();
+          node.parent = this_1.node;
+          var sp = node.addComponent(cc.Sprite);
+          var file = "buildings/test" + i;
+          cc.resources.load(file, cc.SpriteFrame, function(err, spf) {
+            if (err) {
+              cc.log(err);
+              return;
+            }
+            sp.spriteFrame = spf;
+          });
+        };
+        var this_1 = this;
+        for (var i = 1; i < 78; i++) _loop_1(i);
+      };
       Helloworld.prototype.back2App = function() {
         cc.log("\u8fd4\u56deapp");
         cc.director.loadScene("blank");
