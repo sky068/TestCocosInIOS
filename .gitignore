@@ -16,3 +16,6 @@ cocoProj/NativeInside/temp
 cocoProj/NativeInside/local
 cocoProj/NativeInside/.DS_Store
 
+cocoProj/NativeInside/build/jsb-default/frameworks/cocos2d-x
+cocoProj/NativeInside/build/jsb-default/frameworks/runtime-src/proj.win32
+cocoProj/NativeInside/build/jsb-default/frameworks/runtime-src/proj.android-studio
