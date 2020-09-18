@@ -12,7 +12,7 @@ window._CCSettings = {
     hasStartSceneBundle: false,
     remoteBundles: [],
     subpackages: [],
-    launchScene: "db://assets/Scene/helloworld.fire",
+    launchScene: "db://assets/Scene/blank.fire",
     orientation: "",
     server: "",
     debug: true,

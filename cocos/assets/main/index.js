@@ -64,13 +64,12 @@ window.__require = function e(t, n, r) {
         return null !== _super && _super.apply(this, arguments) || this;
       }
       NewClass.prototype.start = function() {
-        if (cc.sys.isNative) {
-          cc.log("native \u9000\u51facocos");
+        this.node.on(cc.Node.EventType.TOUCH_END, function(event) {
+          cc.log("touch end.");
+          cc.loader.releaseAll();
           cc.sys.garbageCollect();
-          this.scheduleOnce(function(t) {
-            var ret = jsb.reflection.callStaticMethod("CocosMng", "exitCocosForJS");
-          }, .1);
-        }
+          if (cc.sys.isNative) var ret = jsb.reflection.callStaticMethod("CocosMng", "exitCocosForJS");
+        }, this);
       };
       NewClass = __decorate([ ccclass ], NewClass);
       return NewClass;
@@ -121,11 +120,7 @@ window.__require = function e(t, n, r) {
       Helloworld.prototype.start = function() {};
       Helloworld.prototype.back2App = function() {
         cc.log("\u8fd4\u56deapp");
-        if (cc.sys.isNative) {
-          cc.log("native \u9000\u51facocos");
-          var ret = jsb.reflection.callStaticMethod("CocosMng", "exitCocosForJS");
-          cc.sys.garbageCollect();
-        }
+        cc.director.loadScene("blank");
       };
       __decorate([ property(cc.Label) ], Helloworld.prototype, "label", void 0);
       __decorate([ property ], Helloworld.prototype, "text", void 0);
