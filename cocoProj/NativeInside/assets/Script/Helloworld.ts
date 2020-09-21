@@ -31,13 +31,6 @@ export default class Helloworld extends cc.Component {
 
     back2App() {
         cc.log('返回app');
-        // if (cc.sys.isNative) {
-        //     cc.log('native 退出cocos');
-        //     cc.loader.releaseAll();
-        //     cc.sys.garbageCollect();
-        //     let ret = jsb.reflection.callStaticMethod("CocosMng", "exitCocosForJS");
-        // }
-
         cc.director.loadScene("blank");
     }
 }
