@@ -30,8 +30,8 @@
 
 +(CCEAGLView *)getCocosView;
 
--(void)didEnterBackground;
--(void)willEnterForeground;
+-(void)didEnterBackground;  // app进入后台时调用，通知游戏js层
+-(void)willEnterForeground; // app返回前台时调用, 通知游戏js层
 -(void)willTerminate;
 
 
